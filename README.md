@@ -9,6 +9,7 @@ Utilize the OMDb API (http://www.omdbapi.com/) to retrieve movies, add them to a
 ####Refactored project:
 - Two views, one for wishlist of to-watch movies, one for already watched movies with star-bar ratings.
 - Search bar in menu that searches watched movies, unwatched movies, and returns any other movies that match the searched value via the OMDb API
+- Post-search, buttons to filter by watched/unwatched/un-added
 - Choosing a movie from the API adds it to the wishlist
 - Clicking watched on a wishlist movie moves it to the watched view and allows it to be rated
 - Unwatched movies can be removed from the wishlist, but watched movies cannot be unwatched/removed
